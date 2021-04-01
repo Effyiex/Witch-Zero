@@ -14,6 +14,16 @@ scoreboard players set True WiZe.Values 1
 # General Definitions (Datapack)
 scoreboard players set IsBossSpawned WiZe.Values 0
 scoreboard players set Debugging WiZe.Values 1
+scoreboard players set IsAltarBuilt WiZe.Values 0
+
+# General Definitions (Timers)
+scoreboard players set BossSpawning WiZe.Values 0
+scoreboard players set MaxBossSpawning WiZe.Values 420
+scoreboard players set AmbientTick WiZe.Values 0
+scoreboard players set MaxAmbientTick WiZe.Values 120
+
+# Definitions of Altar Ingredients
+function witchzero:load_potions
 
 # Custom Execution Message
 gamerule sendCommandFeedback false
